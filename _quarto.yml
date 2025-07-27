@@ -1,43 +1,52 @@
 project:
-  type: website
-  output-dir: docs
+  type: website         # 项目类型设定为网站（website）
+  output-dir: docs      # 编译后输出到 docs 文件夹（GitHub Pages 默认部署目录）
   
 website:
-  page-navigation: true
-  title: "Yujun Lian"
-  site-url: https://lianyujun.github.io
-  favicon: images/site-logo.png
-  repo-url: https://github.com/lianyujun/lianyujun.github.io
-  repo-actions: [edit, issue]
+  page-navigation: true     # 启用页面内的导航功能（如下一页、上一页）
+  title: "Junze Lin"       # 网站标题，将显示在浏览器标题栏和导航栏左侧
+  site-url: https://BigPotato1st.github.io     # 网站的完整网址（用于生成 sitemap 和 SEO）
+  favicon: icons/favicon-96x96.png            # 网页图标（浏览器标签页显示的小图标）
+  repo-url: https://github.com/BigPotato1st/BigPotato1st.github.io      # 关联的 GitHub 仓库地址
+  repo-actions: [edit, issue]               # 页面正下方显示 "Edit this page" 和 "Report issue" 链接
   
+
+
+  # 网页底部信息
   page-footer:
-    left: |
-      [lianxh.cn](https://www.lianxh.cn)<br>
-    right: |
+    # left: |     # 左侧内容，可使用 Markdown 格式
+    #   [lianxh.cn](https://www.lianxh.cn)<br>
+    right: |    # 右侧内容
       Made with [Quarto](https://quarto.org/)<br>
-    
+
+  # 顶部导航栏设置  
   navbar: 
-    background: "#A9CCE3"
-    search: true
-    right: 
-      - text: "Home"
+    background: "#13294B"     # 设置导航栏背景色（十六进制颜色码）
+    search: false              # 禁用全站搜索功能（右上角搜索框）
+    # 导航栏右侧菜单项
+    right:                    
+      - text: "**Home**"          # 首页链接
         href: index.qmd
-      - text: "Publications"
+      - text: "**Research**"  # 学术成果页
         href: publications.qmd
-      - text: "Books"
-        href: books.qmd
-      - text: "Blogs"
-        href: blog.qmd
-      - text: "Codes"
-        href: codes.qmd
-      - text: "中文"
-        href: Chinese.qmd
-      - text: "CV"
-        href: CV.pdf
+      # - text: "Books"         # 推荐书单页
+      #   href: books.qmd
+      # - text: "Blogs"         # 博客文章页
+      #   href: blog.qmd
+      # - text: "Codes"         # 代码资源页
+      #   href: codes.qmd
+      # - text: "中文"          # 中文内容页面
+      #   href: Chinese.qmd
+      # - text: "CV"            # 简历 PDF
+      #   href: CV.pdf
 
 format:
   html:
-    theme: styles.scss
-    toc: true            # 启用目录
+    theme: styles.scss   # 自定义主题样式，引用本地 SCSS 文件
+    toc: true            # 启用侧边目录（Table of Contents）
     toc-position: right  # 将目录放置在页面的右侧
-    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细
+    toc-depth: 3         # 设置目录的深度，数字越大，目录越详细,（H3 级标题）
+
+# 引入额外的 HTML 文件到头部
+includes:
+  in-header: _includes/head-extra.html

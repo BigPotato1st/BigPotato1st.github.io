@@ -4,10 +4,10 @@ project:
   
 website:
   page-navigation: true     # 启用页面内的导航功能（如下一页、上一页）
-  title: "Junze Lin"       # 网站标题，将显示在浏览器标题栏和导航栏左侧
-  site-url: https://BigPotato1st.github.io     # 网站的完整网址（用于生成 sitemap 和 SEO）
+  title: "Home"       # 网站标题，将显示在浏览器标题栏和导航栏左侧
+  site-url: https://junze-lin.github.io     # 网站的完整网址（用于生成 sitemap 和 SEO）
   favicon: icons/favicon-96x96.png            # 网页图标（浏览器标签页显示的小图标）
-  repo-url: https://github.com/BigPotato1st/BigPotato1st.github.io      # 关联的 GitHub 仓库地址
+  repo-url: https://github.com/junze-lin/junze-lin.github.io      # 关联的 GitHub 仓库地址
   repo-actions: [edit, issue]               # 页面正下方显示 "Edit this page" 和 "Report issue" 链接
   
 

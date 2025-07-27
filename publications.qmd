@@ -24,13 +24,14 @@ Example:-   **连玉君**, 李鑫. 完全刑责年龄法律对未成年人犯罪
 
 - **Judicial Local Protectionism and Political Tournament: Evidence from China**  
   [Abstract Here]  
-  [Paper(latest version)](https://github.com/BigPotato1st)  
+  [Paper(Latest Version)](https://github.com/BigPotato1st)  
 - **Financial Network and Monetary Policy**  
   (w. Ruiyang Ma)       
   [Abstract Here]  
-  [Paper(latest version)]
+  [Paper(Latest Version)]
 
 ## Other Publication
 - **Double sparsity garrotized kernel machine in high-dimensional partially linear model**  
+  *Communication in Statistics - Simulation and Computation*, March 2024  
   (w. Xinyi Zhao, Yaohua Rong, Maozai Tian, and Jinwen Liang)  
-  *Communication in Statistics - Simulation and Computation*, March 2024
+  [Published Version](https://www.tandfonline.com/doi/full/10.1080/03610918.2024.2329244)

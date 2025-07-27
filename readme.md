@@ -1,9 +1,9 @@
 
 ## 个人主页
 
-我的 [个人主页](https://junze-lin.github.io/) 是基于 [Chi Zhang](https://chizapoth.github.io/) ([github](https://github.com/chizapoth/chizapoth.github.io)) 和 [Junyu Lin]([https://junze-lin.github.io/](https://lianyujun.github.io/)) ([github](https://github.com/lianyujun))的个人主页修改而来的。 
+我的 [个人主页](https://junze-lin.github.io/) 是基于 [Chi Zhang](https://chizapoth.github.io/) ([github](https://github.com/chizapoth/chizapoth.github.io)) 和 [Yujun Lian](https://lianyujun.github.io/) ([github](https://github.com/lianyujun))的个人主页修改而来的。 
 
-这个个人主页进行了对于uiuc的特化
+我的个人主页进行了对于uiuc的特化
 
 具体制作过程参见连老师的教程：
 
